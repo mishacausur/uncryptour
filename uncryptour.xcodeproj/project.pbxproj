@@ -96,6 +96,7 @@
 		B622515127E90BCD0020F6E2 /* uncryptour */ = {
 			isa = PBXGroup;
 			children = (
+				B622517F27E90F020020F6E2 /* Core */,
 				B622517C27E90C5C0020F6E2 /* Extensions */,
 				B622515227E90BCE0020F6E2 /* uncryptourApp.swift */,
 				B622515427E90BCE0020F6E2 /* ContentView.swift */,
@@ -136,6 +137,37 @@
 				B622517D27E90C6C0020F6E2 /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B622517F27E90F020020F6E2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B622518027E90F090020F6E2 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B622518027E90F090020F6E2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B622518227E90F290020F6E2 /* ViewModels */,
+				B622518127E90F230020F6E2 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B622518127E90F230020F6E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B622518227E90F290020F6E2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
