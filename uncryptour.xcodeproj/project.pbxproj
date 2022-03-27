@@ -15,6 +15,7 @@
 		B622516E27E90BD00020F6E2 /* uncryptourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622516D27E90BD00020F6E2 /* uncryptourUITests.swift */; };
 		B622517027E90BD00020F6E2 /* uncryptourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622516F27E90BD00020F6E2 /* uncryptourUITestsLaunchTests.swift */; };
 		B622517E27E90C6C0020F6E2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622517D27E90C6C0020F6E2 /* Color.swift */; };
+		B6D5E0A427F0D31900E8F17C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D5E0A327F0D31900E8F17C /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		B622516D27E90BD00020F6E2 /* uncryptourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uncryptourUITests.swift; sourceTree = "<group>"; };
 		B622516F27E90BD00020F6E2 /* uncryptourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uncryptourUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B622517D27E90C6C0020F6E2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		B6D5E0A327F0D31900E8F17C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		B622518127E90F230020F6E2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B6D5E0A327F0D31900E8F17C /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B622515527E90BCE0020F6E2 /* ContentView.swift in Sources */,
+				B6D5E0A427F0D31900E8F17C /* HomeView.swift in Sources */,
 				B622515327E90BCE0020F6E2 /* uncryptourApp.swift in Sources */,
 				B622517E27E90C6C0020F6E2 /* Color.swift in Sources */,
 			);
