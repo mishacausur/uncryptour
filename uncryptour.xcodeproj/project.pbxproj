@@ -14,6 +14,9 @@
 		B622516427E90BD00020F6E2 /* uncryptourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622516327E90BD00020F6E2 /* uncryptourTests.swift */; };
 		B622516E27E90BD00020F6E2 /* uncryptourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622516D27E90BD00020F6E2 /* uncryptourUITests.swift */; };
 		B622517027E90BD00020F6E2 /* uncryptourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622516F27E90BD00020F6E2 /* uncryptourUITestsLaunchTests.swift */; };
+		B622517E27E90C6C0020F6E2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B622517D27E90C6C0020F6E2 /* Color.swift */; };
+		B6B4307327F37E4B009644AD /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4307227F37E4B009644AD /* Networker.swift */; };
+		B6D5E0A427F0D31900E8F17C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D5E0A327F0D31900E8F17C /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		B622516927E90BD00020F6E2 /* uncryptourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uncryptourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B622516D27E90BD00020F6E2 /* uncryptourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uncryptourUITests.swift; sourceTree = "<group>"; };
 		B622516F27E90BD00020F6E2 /* uncryptourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uncryptourUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B622517D27E90C6C0020F6E2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		B6B4307227F37E4B009644AD /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
+		B6D5E0A327F0D31900E8F17C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,11 @@
 		B622515127E90BCD0020F6E2 /* uncryptour */ = {
 			isa = PBXGroup;
 			children = (
+				B622517F27E90F020020F6E2 /* Core */,
+				B622517C27E90C5C0020F6E2 /* Extensions */,
 				B622515227E90BCE0020F6E2 /* uncryptourApp.swift */,
 				B622515427E90BCE0020F6E2 /* ContentView.swift */,
+				B6B4307227F37E4B009644AD /* Networker.swift */,
 				B622515627E90BD00020F6E2 /* Assets.xcassets */,
 				B622515827E90BD00020F6E2 /* Preview Content */,
 			);
@@ -125,6 +134,46 @@
 				B622516F27E90BD00020F6E2 /* uncryptourUITestsLaunchTests.swift */,
 			);
 			path = uncryptourUITests;
+			sourceTree = "<group>";
+		};
+		B622517C27E90C5C0020F6E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B622517D27E90C6C0020F6E2 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B622517F27E90F020020F6E2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B622518027E90F090020F6E2 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B622518027E90F090020F6E2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B622518227E90F290020F6E2 /* ViewModels */,
+				B622518127E90F230020F6E2 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B622518127E90F230020F6E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6D5E0A327F0D31900E8F17C /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B622518227E90F290020F6E2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B4307327F37E4B009644AD /* Networker.swift in Sources */,
 				B622515527E90BCE0020F6E2 /* ContentView.swift in Sources */,
+				B6D5E0A427F0D31900E8F17C /* HomeView.swift in Sources */,
 				B622515327E90BCE0020F6E2 /* uncryptourApp.swift in Sources */,
+				B622517E27E90C6C0020F6E2 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
