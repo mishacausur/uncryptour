@@ -12,6 +12,9 @@ struct HomeView: View {
         ZStack {
             Color.theme.background
                 .ignoresSafeArea()
+            VStack {
+                Text("Header")
+            }
         }
     }
 }
